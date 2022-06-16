@@ -1,0 +1,18 @@
+{
+  "name": "devutils-docs",
+  "version": "1.0.0",
+  "description": "A documentation for the DevUtils bot by Metahond.",
+  "main": "index.js",
+  "author": "Metahond Development",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.2",
+    "vue": "^3.2.37"
+  },
+  "dependencies": {}
+}
