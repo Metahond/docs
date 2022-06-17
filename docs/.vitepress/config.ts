@@ -13,12 +13,7 @@ export default defineConfig({
     themeConfig: {
         siteTitle: 'Metahond Development',
         nav: [
-            { text: 'Home', link: '/', activeMatch: '/' },
-            {
-                text: 'DevUtils',
-                link: '/guides/devutils/',
-                activeMatch: '/guides/devutils/'
-            }
+            { text: 'Home', link: '/', activeMatch: '/' }
         ],
         socialLinks: [
             { icon: 'github', link: 'https://github.com/Metahond/docs' }
@@ -43,13 +38,6 @@ function sidebar() {
         {
             text: 'General Information',
             items: [{ text: 'Introduction', link: '/' }]
-        },
-        {
-            text: 'DevUtils',
-            collapsible: true,
-            items: [
-                { text: 'Introduction', link: '/guides/devutils/' },
-            ]
         },
         {
             text: 'Socials',
