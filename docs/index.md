@@ -13,7 +13,7 @@ Glad you're here. This page will give an overview over various things you may en
 
 - [DevUtils](/guides/devutils/) – A collection of useful tools for developers.
 
-## 📖 Strucuture 
+## 📖 Structure 
 Our documentation follows this structure:
 
 - **General Information** – General information about our projects.
