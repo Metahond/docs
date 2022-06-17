@@ -3,28 +3,28 @@ import { defineConfig } from 'vitepress';
 export default defineConfig({
     lang: 'en-US',
     title: 'Metahond Development – Documentation',
-    titleTemplate: false,
+    titleTemplate: 'Metahond Development',
     description: 'Documentation for Metahond Development projects.',
     appearance: true,
+    head: [
+        ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    ],
+    lastUpdated: true,
     themeConfig: {
         siteTitle: 'Metahond Development',
         nav: [
             { text: 'Home', link: '/', activeMatch: '/' },
-            { text: 'DevUtils', link: '/devutils/', activeMatch: '/devutils' },
-            { text: 'Support Discord', link: 'discord.gg/N3w33WSMRW' },
-            { text: 'Github', link: 'https://github.com/Metahond/docs' },
-            { text: 'Website', link: 'https://metahond.codes' }
+            {
+                text: 'DevUtils',
+                link: '/guides/devutils/',
+                activeMatch: '/guides/devutils/'
+            }
+        ],
+        socialLinks: [
+            { icon: 'github', link: 'https://github.com/Metahond/docs' }
         ],
         sidebar: {
-            general: [
-                {
-                    text: 'General Information',
-                    items: [
-                        { text: 'Introduction', link: '/introduction/' },
-                        { text: 'Socials', link: '/socials/' }
-                    ]
-                }
-            ]
+            '/': sidebar()
         },
         footer: {
             message: 'Made with ❤️ by Metahond',
@@ -37,3 +37,27 @@ export default defineConfig({
         }
     }
 });
+
+function sidebar() {
+    return [
+        {
+            text: 'General Information',
+            items: [{ text: 'Introduction', link: '/' }]
+        },
+        {
+            text: 'DevUtils',
+            collapsible: true,
+            items: [
+                { text: 'Introduction', link: '/guides/devutils/' },
+            ]
+        },
+        {
+            text: 'Socials',
+            items: [
+                { text: 'Website', link: 'https://metahond.codes' },
+                { text: 'GitHub', link: 'https://github.com/Metahond' },
+                { text: 'Support Discord', link: 'https://discord.gg/N3w33WSMRW' }
+            ]
+        }
+    ];
+}
