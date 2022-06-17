@@ -6,6 +6,8 @@ layout: doc
 
 ---
 
+### Important – This is just a placeholder until the bot is released.
+
 # 👋 Welcome to our Documentation!
 Glad you're here. This page will give an overview over various things you may encounter while reading the full documentation.
 
