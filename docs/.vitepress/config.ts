@@ -44,7 +44,7 @@ function sidebar() {
             items: [
                 { text: 'Website', link: 'https://metahond.codes' },
                 { text: 'GitHub', link: 'https://github.com/Metahond' },
-                { text: 'Support Discord', link: 'https://discord.gg/N3w33WSMRW' }
+                { text: 'Support Discord', link: 'https://discord.metahond.codes' }
             ]
         }
     ];

@@ -15,7 +15,7 @@ Glad you're here. This page will give an overview over various things you may en
 
 - [DevUtils](https://www.youtube.com/watch?v=dQw4w9WgXcQ) – A collection of useful tools for developers.
 
-## 📖 Strucuture 
+## 📖 Structure 
 Our documentation follows this structure:
 
 - **General Information** – General information about our projects.
