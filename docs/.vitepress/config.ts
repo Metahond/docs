@@ -37,15 +37,31 @@ function sidebar() {
     return [
         {
             text: 'General Information',
-            items: [{ text: 'Introduction', link: '/' }]
+            items: [{ text: 'Introduction', link: '/' }],
+        },
+        {
+            text: 'Color Util',
+            items: [
+                {
+                    text: 'Library',
+                    link: 'https://deno.land/x/color_util',
+                },
+                {
+                    text: 'Documentation',
+                    link: 'https://doc.deno.land/https://deno.land/x/color_util@1.0.0/mod.ts',
+                },
+            ],
         },
         {
             text: 'Socials',
             items: [
                 { text: 'Website', link: 'https://metahond.codes' },
                 { text: 'GitHub', link: 'https://github.com/Metahond' },
-                { text: 'Support Discord', link: 'https://discord.metahond.codes' }
-            ]
-        }
+                {
+                    text: 'Support Discord',
+                    link: 'https://discord.metahond.codes',
+                },
+            ],
+        },
     ];
 }
