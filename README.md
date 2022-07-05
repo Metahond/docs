@@ -27,8 +27,8 @@ some text
 ```
 and so on.
 
-# 📚 Contribution
+## 📚 Contribution
 If you want to contribute to this project, feel free to choose an issue and create a pull request. 
 
-# 🤷‍♀️ Support
+## 🤷‍♀️ Support
 If you need help with contributing or understanding this documentation, check out our [Discord server](https://discord.metahond.codes) for help!
