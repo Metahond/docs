@@ -16,7 +16,7 @@ export default defineConfig({
             { text: 'Home', link: '/', activeMatch: '/' }
         ],
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/Metahond/docs' }
+            { icon: 'github', link: 'https://github.com/Metahond/docs' },
         ],
         sidebar: {
             '/': sidebar()
@@ -25,11 +25,6 @@ export default defineConfig({
             message: 'Made with ❤️ by Metahond',
             copyright: '© 2022-present Metahond'
         },
-        algolia: {
-            appId: 'N0TOD6VLJX',
-            apiKey: '369b2e951197f8d0ae17acbbe8f36a10',
-            indexName: 'docs'
-        }
     }
 });
 
@@ -48,7 +43,7 @@ function sidebar() {
                 },
                 {
                     text: 'Documentation',
-                    link: 'https://doc.deno.land/https://deno.land/x/color_util@1.0.0/mod.ts',
+                    link: 'https://deno.land/x/color_util/mod.ts',
                 },
             ],
         },
@@ -57,11 +52,15 @@ function sidebar() {
             items: [
                 { text: 'Website', link: 'https://metahond.codes' },
                 { text: 'GitHub', link: 'https://github.com/Metahond' },
-                {
-                    text: 'Support Discord',
-                    link: 'https://discord.metahond.codes',
-                },
+                { text: 'Instagram', link: 'https://instagram.com/metahond' },
+                { text: 'Support Discord', link: 'https://discord.metahond.codes' },
             ],
         },
+        {
+            text: 'Legal',
+            items: [
+                { text: 'Imprint', link: './imprint' }
+            ]
+        }
     ];
 }
